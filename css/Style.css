@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.hide{
+    display: none;
+}
+.section{
+     padding: 50px 240px;;
+}
+
+ /* header part stard */
+ .head-section{
+    background: rgba(255, 144, 14, 0.10);
+    background-size: cover;
+    padding: 50px 240px;
+ 
+ }
+ .row{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 0 0;
+ }
+ .row .company-logo{
+    font-size: 45px;
+    font-weight: 700px;
+    color: #131313;
+ }
+ .row .manu ul{
+    display: flex;
+    gap: 40px;
+ }
+ .row .manu ul li{
+    list-style-type: none;
+ }
+ .row .manu ul li a{
+    text-decoration: none;
+    color: #424242;
+    font-weight: 500;
+    font-size: 26px;
+ }
+ .btn{
+    /* padding: 20px 24px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    background: #ff900E; */
+    border: none;
+    /* border-radius: 10px; */
+ }
+.head-section .container .banner-part{
+    align-items: center;
+    text-align: center;
+    padding: 116px 0 50px 0;
+}
+.head-section .container .banner-part .banner-head{
+    font-size: 64px;
+    color: #131313;
+    font-weight: 700;
+}
+.head-section .container .banner-part .banner-pragrph{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 20px;
+
+}
+.head-section .container .banner-part .btn{
+    padding: 20px 24px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    background: #ff900E;
+    border: none;
+    border-radius: 10px;
+}
+.head-section .container img{
+    width: 100%;
+}
+
+ /* header part end */
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ @media only screen and (max-width: 768px) {
+    .head-section{
+        background: rgba(255, 144, 14, 0.10);
+        padding: 15px 15px;
+     }
+    .row{
+        flex-direction: column;
+    }
+    .head-section .container .manu ul{
+        flex-direction: column;
+    }
+    .head-section .container img{
+        width: 100%;
+    }
+  }
+
+  
