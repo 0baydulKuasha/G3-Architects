@@ -43,13 +43,13 @@
     font-size: 26px;
  }
  .btn{
-    /* padding: 20px 24px;
+    padding: 20px 24px;
     font-size: 20px;
     color: #fff;
     font-weight: 600;
-    background: #ff900E; */
+    background: #ff900E;
     border: none;
-    /* border-radius: 10px; */
+    border-radius: 10px;
  }
 .head-section .container .banner-part{
     align-items: center;
@@ -82,7 +82,48 @@
 }
 
  /* header part end */
+ /* Quick lisht Of Our Features part stard */
+.section .container .feateres{
+    display: flex;
+    justify-content: space-between;
+    padding: 83px  70px;
+    align-items: center;
+}
+.section .container .feateres .features-images{
+    
+}
 
+.section .container .feateres .features-images img{
+    width: auto;
+    padding: 24px 0 24px 24px;
+}
+.section .container .feateres-text{
+    color: #727272;
+    /* width: 537px; */
+    margin: 0 auto;
+    
+}
+.section .container .feateres-text h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.section .container .feateres-text h1 .black{
+    color: #131313;
+}
+.section .container .feateres-text h1 .yellow{
+    color: #ff900E;
+}
+
+.section .container .feateres-text p{
+    padding: 0 0 30px 0;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 26px;
+}
+
+ /* Quick lisht Of Our Features part end  */
+ 
  
 
 
@@ -94,17 +135,10 @@
 
 
 
-
-
-
-
-
-
-
-
-
- 
- @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
+    body{
+        background: yellow;
+    }
     .head-section{
         background: rgba(255, 144, 14, 0.10);
         padding: 15px 15px;
@@ -118,6 +152,36 @@
     .head-section .container img{
         width: 100%;
     }
+
+    .section .container .feateres{
+        width: 100%;
+        flex-direction: column;
+    }
+    .section .container .feateres-text{
+        margin: 0;
+        padding: 0;
+    }
+    .section .container .feateres-text h1{
+    width: 100%;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 20px;
+    }
+
+
+
+
   }
+
+
+
+
+
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    
+}
+
+ 
 
   
