@@ -35,6 +35,7 @@
  }
  .row .manu ul li{
     list-style-type: none;
+    padding: 10px 0;
  }
  .row .manu ul li a{
     text-decoration: none;
