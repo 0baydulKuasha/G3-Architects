@@ -125,6 +125,98 @@
  /* Quick lisht Of Our Features part end  */
  
  
+ /* some facts stard  */
+.some-fact{
+    width: 542px;
+    padding: 180px 0 100px 0;
+    text-align: justify;
+}
+.some-fact h1 {
+    font-size: 45px;
+    font-weight: 708;
+    color: #131313;
+    line-height: 100px;
+}
+.some-fact p{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.facts-part{
+    text-align: center;
+    padding:45px 36px 59px 36px ;
+    border-radius: 8px;
+    border: 1px solid #ff900E;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.facts-part img{
+    width: 80px;
+}
+.facts-part h1{
+    color: #424242;
+    font-size: 45px;
+    font-weight: 800px;
+    line-height: 80px;
+
+}
+
+
+ /* some facts end */
+
+ /* Our Sponspors part stard */
+.spon-head{
+    width: 542px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 180px 0 0 100px;
+}
+.spon-head h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+.spon-head p{
+    width: 542px;
+    font-size: 16px;
+    color: #727272;
+    line-height: 26px;
+    padding: 24px 0;
+}
+
+
+ /* Our Sponspors part end  */
+ /* footer section stard */
+ .footer{
+
+ }
+ .footer h1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 33px 0;
+    color: #424242;
+    background: #fff4e7;
+ }
+ /* footer section end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
